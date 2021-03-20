@@ -1,7 +1,5 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
-annotations:
-  'backstage.io/kubernetes-id': dice-roller
 metadata:
   name: go-mirco
   description: testapp
@@ -10,6 +8,7 @@ metadata:
     backstage.io/source-ref: "https://github.com/iamgrewal7/backstage"
     backstage.io/techdocs-ref: url:https://github.com/iamgrewal7/backstage
     backstage.io/github-actions-id: https://github.com/iamgrewal7/backstage
+    backstage.io/kubernetes-id: dice-roller
 spec:
   type: service
   lifecycle: experimental

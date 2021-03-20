@@ -1,5 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
+annotations:
+  'backstage.io/kubernetes-id': dice-roller
 metadata:
   name: go-mirco
   description: testapp
